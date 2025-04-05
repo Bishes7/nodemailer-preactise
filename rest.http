@@ -1,0 +1,10 @@
+### Post Method
+POST http://localhost:8000
+Content-Type: application/json
+
+{
+    "to":"receiver@email.com",
+    "subject":"test subject",
+    "message":"message for the email,check"
+
+}
