@@ -24,7 +24,7 @@ export const demoTemplate = () => {
     from: '"Bishes👻" <ayla4@ethereal.email>', // sender address
     to: "ayla4@ethereal.email", // list of receivers
     subject: "Hello Email  World", // Subject line
-    text: "Hello world?", // plain text body
+    text: "Hello world? This is a text", // plain text body
     html: "<b>Hello world?</b>", // html body
   };
   emailProcessor(obj);
