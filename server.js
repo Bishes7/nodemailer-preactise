@@ -21,7 +21,7 @@ app.post("/", (req, res) => {
 
     demoTemplate();
     res.json({
-      message: "todo",
+      message: "Gmail server started",
     });
   } catch (error) {
     console.log(error);
